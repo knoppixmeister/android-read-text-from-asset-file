@@ -1,14 +1,11 @@
 package lv.bizapps.textfileassetproba;
 
-import java.io.BufferedReader;
-import java.io.IOException;
-import java.io.InputStream;
-import java.io.InputStreamReader;
-import android.os.Bundle;
-import android.app.Activity;
-import android.content.res.AssetManager;
-import android.view.Menu;
-import android.widget.TextView;
+import java.io.*;
+import android.os.*;
+import android.app.*;
+import android.content.res.*;
+import android.view.*;
+import android.widget.*;
 
 public class MainActivity extends Activity {
 	@Override
@@ -40,6 +37,7 @@ public class MainActivity extends Activity {
 	@Override
 	public boolean onCreateOptionsMenu(Menu menu) {
 		getMenuInflater().inflate(R.menu.main, menu);
+
 		return true;
 	}
 }
